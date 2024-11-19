@@ -8,6 +8,7 @@ This data analysis project aims to provide insights into the viewership and rati
 ## Data Sources
 
 Episode Data: The first dataset used for this analysis is the "the_good_place_episodes" file, containing detailed information about every episode created.
+
 IMDb Data: The second dataset used for this analysis is the "the_good_place_imdb" file, containing detailed information about ratings for every episode.
 
 **Both Datasets were sourced from [Kaggle](https://www.kaggle.com/datasets/bcruise/the-good-place-episode-data); however, the CSV file has been included in this repository.**
