@@ -1,5 +1,6 @@
 # _The Good Place_ Analysis
 
+
 ## Project Overview
 
 This data analysis project aims to provide insights into the viewership and ratings performance of the TV show The Good Place. By analyzing various aspects of the show’s data, such as audience ratings, episode viewership, and creative contributions from writers and directors, we seek to identify trends, uncover audience preferences, and gain a deeper understanding of the factors contributing to the show’s success.
@@ -7,7 +8,9 @@ This data analysis project aims to provide insights into the viewership and rati
 ## Data Sources
 
 Episode Data: The first dataset used for this analysis is the "the_good_place_episodes" file, containing detailed information about every episode created.
-IMDb Data: The second dataset used for this analysis is the "the_good_place_imdb" file, containing detailed information about ratings for every episode. 
+IMDb Data: The second dataset used for this analysis is the "the_good_place_imdb" file, containing detailed information about ratings for every episode.
+
+**Both Datasets were sourced from [Kaggle](https://www.kaggle.com/datasets/bcruise/the-good-place-episode-data); however, the CSV file has been included in this repository.**
 
 ## Tools 
 
@@ -43,3 +46,26 @@ EDA involved exploraing the show's data to answer key questions, such as:
 
 
 ## Summary of Findings
+* Viewership
+  1. As the seasons went on, overall viewership decreased alongside average viewership.
+  2. Season 1 holds the most watched episodes, with season 2 taking over by their 11th episode.
+      - This attributes to viewers' tendency to test out shows and determine whether or not they will continue watching.
+  3. As the seasons went on, viewership became more consistent and stable.
+    
+* Popularity
+    1. Season 2 has the highest average rating out of all the seasons.
+        - It has 6 episodes within the top ten highest rated. 
+    2. Season 2 has the most consistent ratings.
+    3. The two highest rated episdoes belong to season 4 finale and season 1 finale.
+        - Episodes had major plot points and were well received by the overall audience.
+
+**There is no definitive relationship found between viewership and ratings considering the consistent decrease in viewership over the seasons, while ratings are prone to more fluctuations** 
+
+* Directors & Writers
+    1. The Director with the highest average rating is Michael Schur.
+    2. The Writer(s) with the highest average rating is also Michael Schur.
+    3. Michael Schur has the highest average rated episodes when he both directs and writes episodes.
+
+
+## Limitations
+
