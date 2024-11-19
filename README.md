@@ -68,4 +68,5 @@ EDA involved exploraing the show's data to answer key questions, such as:
 
 
 ## Limitations
-
+* Some Episodes were 2 parts and in the first dataset, they were split and labeled as such; however, in the IMDb dataset they were identified as a single episode. To counter this I ulitmately inserted the part 2 of the episodes into the IMDb dataset because they consisted of the same release date, episode number, views, and descriptions. Everything was the same except the creative contributions, because they were aired as a single long episode.
+* The dataset only includes viewership and ratings from audiences in the United States. Findings may not represent global satisfaction and behaviors.
