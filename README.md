@@ -1,11 +1,10 @@
 # _The Good Place_ Analysis
 
-
-## Project Overview
+### Project Overview
 
 This data analysis project aims to provide insights into the viewership and ratings performance of the TV show The Good Place. By analyzing various aspects of the show’s data, such as audience ratings, episode viewership, and creative contributions from writers and directors, we seek to identify trends, uncover audience preferences, and gain a deeper understanding of the factors contributing to the show’s success.
 
-## Data Sources
+### Data Sources
 
 Episode Data: The first dataset used for this analysis is the "the_good_place_episodes" file, containing detailed information about every episode created.
 
@@ -13,14 +12,14 @@ IMDb Data: The second dataset used for this analysis is the "the_good_place_imdb
 
 **Both Datasets were sourced from [Kaggle](https://www.kaggle.com/datasets/bcruise/the-good-place-episode-data); however, the CSV file has been included in this repository.**
 
-## Tools 
+### Tools 
 
 - Excel - Data Collection and Exploration
 - MySQL Workbench - Data Cleaning & Data Analysis
 - PowerBI - Creating Reports
 
 
-## Data Preparation and Cleaning
+### Data Preparation and Cleaning
 
 In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection
@@ -28,7 +27,7 @@ In the initial data preparation phase, we performed the following tasks:
 3. Removing Duplicates
 4. Standardizing the Data
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
 EDA involved exploraing the show's data to answer key questions, such as:
 
@@ -46,7 +45,7 @@ EDA involved exploraing the show's data to answer key questions, such as:
 12. From season to season, what is the percent change in the average viewership and average ratings?
 
 
-## Summary of Findings
+### Summary of Findings
 * Viewership
   1. As the seasons went on, overall viewership decreased alongside average viewership.
   2. Season 1 holds the most watched episodes, with season 2 taking over by their 11th episode.
@@ -68,6 +67,6 @@ EDA involved exploraing the show's data to answer key questions, such as:
     3. Michael Schur has the highest average rated episodes when he both directs and writes episodes.
 
 
-## Limitations
+### Limitations
 * Some Episodes were 2 parts and in the first dataset, they were split and labeled as such; however, in the IMDb dataset they were identified as a single episode. To counter this I ulitmately inserted the part 2 of the episodes into the IMDb dataset because they consisted of the same release date, episode number, views, and descriptions. Everything was the same except the creative contributions, because they were aired as a single long episode.
 * The dataset only includes viewership and ratings from audiences in the United States. Findings may not represent global satisfaction and behaviors.
