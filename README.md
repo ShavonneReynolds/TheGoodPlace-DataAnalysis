@@ -67,6 +67,14 @@ EDA involved exploraing the show's data to answer key questions, such as:
     3. Michael Schur has the highest average rated episodes when he both directs and writes episodes.
 
 
+### Recommendations
+- Increase the creative contributions of Michael Schur.
+    - The audience seems to resonate with his work more.
+- With the consistency in ratings, look towards season 2 for quality storylines that resonate with the audience a lot more.
+- Considering the large drop off of viewership, promotion of the show should also remain consistent throughout the seasons.
+    - Continue promotional efforts, maybe even increase it if possible, as the show goes on.   
+
+
 ### Limitations
 * Some Episodes were 2 parts and in the first dataset, they were split and labeled as such; however, in the IMDb dataset they were identified as a single episode. To counter this I ulitmately inserted the part 2 of the episodes into the IMDb dataset because they consisted of the same release date, episode number, views, and descriptions. Everything was the same except the creative contributions, because they were aired as a single long episode.
 * The dataset only includes viewership and ratings from audiences in the United States. Findings may not represent global satisfaction and behaviors.
